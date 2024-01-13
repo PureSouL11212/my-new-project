@@ -1,5 +1,6 @@
 body {
-    background-image: url('/assets/image/of.jpg');
+    background-color: antiquewhite;
+    /* background-image: url('/assets/image/of.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
    
