@@ -6,3 +6,19 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+/* Add styling for the calendar selector */
+input[type="date"] {
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the booking box */
+.booking {
+  text-align: center;
+  border: 2px solid ;
+  padding: 20px;
+  border-radius: 10px;
+}
