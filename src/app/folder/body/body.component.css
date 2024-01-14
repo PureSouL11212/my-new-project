@@ -184,7 +184,7 @@ button:hover {
   margin: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.2); /* Light yellow background */
+  background-color: rgba(0, 0, 0, 0.5); /* Light yellow background */
   transition: all 0.3s ease;
   /* Add motion effect on hover */
   transform: scale(1);
@@ -197,4 +197,12 @@ button:hover {
 .other-services-box:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.other-services-box h2{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: underline;
+  font-size: 35px;
 }
