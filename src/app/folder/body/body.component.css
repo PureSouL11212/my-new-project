@@ -106,7 +106,7 @@ button {
   margin: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #ff6b6b; /* Vibrant red background color */
+  background-color: rgba(0,0,0,.5); /* Vibrant red background color */
   transition: all 0.3s ease; /* Apply smooth transition to all properties */
 
   /* Add motion effect on hover */
