@@ -12,11 +12,18 @@ var BodyComponent = /** @class */ (function () {
     function BodyComponent() {
         this.currentDate = new Date().toDateString();
         this.availableRooms = [10, 12, 15, 14, 11, 13, 16];
+        this.weekDaysInfo = [
+            { date: new Date( /* set date for Sunday */), availableRooms: [{ name: 'Room 1' }, { name: 'Room 2' }] },
+            { date: new Date( /* set date for Monday */), availableRooms: [{ name: 'Room 3' }, { name: 'Room 4' }] },
+        ];
         this.room = "example room";
     }
     BodyComponent.prototype.proceed = function () {
         // Add your logic for the proceed action here
     };
+    __decorate([
+        core_1.Input()
+    ], BodyComponent.prototype, "dateInfo");
     BodyComponent = __decorate([
         core_1.Component({
             selector: 'app-body',
