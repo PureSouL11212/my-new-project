@@ -100,23 +100,29 @@ button {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
 .left-box, .right-box {
   width: 45%;
   padding: 20px;
   margin: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #f4f4f4; /* Light grey background color */
-  transition: background-color 0.3s ease; /* Smooth background color transition */
+  background-color: #ff6b6b; /* Vibrant red background color */
+  transition: all 0.3s ease; /* Apply smooth transition to all properties */
 
-  /* Add box shadow for hover effect */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  /* Add motion effect on hover */
+  transform: scale(1); /* Initial scale value */
 }
 
+/* Apply motion effect on hover */
 .left-box:hover, .right-box:hover {
-  background-color: #e1e1e1; /* Lighter grey background color on hover */
+  transform: scale(1.05); /* Scale up the box on hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow on hover for depth effect */
 }
+
+.left-box h2, .right-box h2 {
+  color: #fff; /* White text color for better contrast on the red background */
+}
+
 
 .left-box form, .right-box form {
   display: flex;
