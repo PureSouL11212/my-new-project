@@ -22,7 +22,7 @@ export class BodyComponent {
     // Add your logic for the proceed action here
   }
   weekDaysInfo = [
-    { date: new Date(/* set date for Sunday */), availableRooms: [{ name: 'Room 1' }, { name: 'Room 2' }] },
+    { date: new Date(2014, 8, 28), availableRooms: [{ name: 'Room 1' }, { name: 'Room 2' }] },
     { date: new Date(/* set date for Monday */), availableRooms: [{ name: 'Room 3' }, { name: 'Room 4' }] },
     // Add objects for the rest of the week
   ];
