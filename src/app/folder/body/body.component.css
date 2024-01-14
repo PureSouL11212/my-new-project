@@ -9,8 +9,8 @@
 
 /* Add styling for the calendar selector */
 input[type="date"] {
-  padding: 10px;
-  margin-top: 10px;
+  padding: 5px;
+  margin-top: 0px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -21,4 +21,9 @@ input[type="date"] {
   border: 2px solid ;
   padding: 20px;
   border-radius: 10px;
+}
+.bk p {
+  font-size: large;
+  color:rgb(0, 0, 0);
+  font-weight: bold;
 }
