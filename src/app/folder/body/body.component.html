@@ -9,38 +9,55 @@
 </div> -->
 
 <div class="container">
-    <div class="row">
-        <div class="booking" style="text-align: center;padding: 30px 80px; ">
-            <div class="bk" style="border: 2px solid red; padding: 30px 80px; border-radius: 50px;display:inline-block">
-                <p class="booking-period-title" style="text-decoration: underline;font-size:30px">Booking Period</p>
-                <p>From Date :</p>
-                <input type="date" id="bookingDate" name="bookingDate"><hr>
-                <p>From Date :</p>
-                <input type="date" id="bookingDate" name="bookingDate" required><br>
-                <br>
-                <button (click)="proceed()">see Availability</button>
-            </div>
-          
-
-        </div>
-
-
-
-
-        <div class="booking" style="text-align: center;padding: 0px 0px; ">
-        <div class="bk" style="border: 2px solid red; padding: 30px 80px; border-radius: 50px;display:inline-block">
-            <div class="booking-box">
-                <p>Date: {{ currentDate }}</p>
-                <div class="image-section">
-                  <img src="path_to_your_image.jpg" alt="Image Section">
-                </div>
-                <p>Number of Rooms Available:</p>
-                <ul>
-                  <li ngFor="let room of availableRooms">{{ room }}</li>
-                </ul>
-                <button (click)="proceed()">Proceed</button>
-              </div>
-        </div>
-        </div>
+  <div class="row">
+    <div class="booking" style="text-align: center; padding: 30px 80px">
+      <div
+        class="bk"
+        style="
+          border: 2px solid red;
+          padding: 30px 80px;
+          border-radius: 50px;
+          display: inline-block;
+        "
+      >
+        <p
+          class="booking-period-title"
+          style="text-decoration: underline; font-size: 30px"
+        >
+          Booking Period
+        </p>
+        <p>From Date :</p>
+        <input type="date" id="bookingDate" name="bookingDate" />
+        <hr />
+        <p>From Date :</p>
+        <input type="date" id="bookingDate" name="bookingDate" required /><br />
+        <br />
+        <button (click)="proceed()">see Availability</button>
+      </div>
     </div>
+
+    <div class="booking" style="text-align: center; padding: 0px 0px">
+      <div
+        class="bk"
+        style="
+          border: 2px solid red;
+          padding: 30px 80px;
+          border-radius: 50px;
+          display: inline-block;
+        "
+      >
+        <div class="booking-box">
+          <p>Date: {{ currentDate }}</p>
+          <div class="image-section">
+            <img src="path_to_your_image.jpg" alt="Image Section" />
+          </div>
+          <p>Number of Rooms Available:</p>
+          <ul>
+            <li ngFor="let room of availableRooms">{{ room }}</li>
+          </ul>
+          <button (click)="proceed()">Proceed</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
