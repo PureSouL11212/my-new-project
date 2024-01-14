@@ -6,7 +6,8 @@
 /* Add styling for the calendar selector */
 /* angular.css */
 .container {
-  background-image: url("https://source.unsplash.com/random/1920x1080/?colors");
+  background-color: aqua;
+  /* background-image: url("https://source.unsplash.com/random/1920x1080/?colors"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -175,4 +176,27 @@ button:hover {
   text-decoration: underline;
   font-size:35px;
   
+}
+
+
+/* Style the new box */
+.other-services-box {
+  width: 45%;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffff6b; /* Light yellow background */
+  transition: all 0.3s ease;
+  /* Add motion effect on hover */
+  transform: scale(1);
+  margin: 0 auto; /* Center horizontally */
+  position: relative; /* Set a positioning context */
+  top: 50%; /* Move the box up by half its height */
+  /* transform: translateY(-50%) */
+}
+
+.other-services-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
