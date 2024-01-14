@@ -91,8 +91,8 @@ button {
 label {
   color: #fff;
 }
-.left-box:hover{
-  color:red
+.left-box:hover {
+  color: red;
 }
 .container1 {
   display: flex;
@@ -118,7 +118,7 @@ label {
 .left-box:hover,
 .right-box:hover {
   cursor: pointer;
-   color:red;
+  color: red;
   transform: scale(1.05); /* Scale up the box on hover */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow on hover for depth effect */
 }
@@ -164,20 +164,18 @@ button:hover {
   background: #0056b3;
 }
 
-.right-box form{
-  margin-top:80px;
+.right-box form {
+  margin-top: 80px;
 }
-.right-box form:hover{
-  color:red;
+.right-box form:hover {
+  color: red;
 }
-.container1 h2{
-  color:rgb(0, 0, 0);
+.container1 h2 {
+  color: rgb(0, 0, 0);
   text-align: center;
   text-decoration: underline;
-  font-size:35px;
-  
+  font-size: 35px;
 }
-
 
 /* Style the new box */
 .other-services-box {
@@ -186,7 +184,7 @@ button:hover {
   margin: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #ffff6b; /* Light yellow background */
+  background-color: rgba(0, 0, 0, 0.2); /* Light yellow background */
   transition: all 0.3s ease;
   /* Add motion effect on hover */
   transform: scale(1);
