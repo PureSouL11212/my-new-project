@@ -1,0 +1,8 @@
+*{
+    height:auto;
+    background-color: aqua;
+    /* background-image: url('https://source.unsplash.com/random/1920x1080/?nature,forest,trees,books,buildings,moon'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

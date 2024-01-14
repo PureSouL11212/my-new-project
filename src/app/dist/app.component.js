@@ -13,6 +13,7 @@ var router_1 = require("@angular/router");
 var my_component_component_1 = require("./folder/my-component/my-component.component");
 var topnavbar_component_1 = require("./folder/topnavbar/topnavbar.component");
 var secondnavbar_component_1 = require("./folder/secondnavbar/secondnavbar.component");
+var body_component_1 = require("./folder/body/body.component");
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
         this.title = 'my-new-project';
@@ -23,7 +24,7 @@ var AppComponent = /** @class */ (function () {
             standalone: true,
             templateUrl: './app.component.html',
             styleUrl: './app.component.css',
-            imports: [common_1.CommonModule, router_1.RouterOutlet, my_component_component_1.MyComponentComponent, topnavbar_component_1.TopnavbarComponent, secondnavbar_component_1.SecondnavbarComponent]
+            imports: [common_1.CommonModule, router_1.RouterOutlet, my_component_component_1.MyComponentComponent, body_component_1.BodyComponent, topnavbar_component_1.TopnavbarComponent, secondnavbar_component_1.SecondnavbarComponent]
         })
     ], AppComponent);
     return AppComponent;
