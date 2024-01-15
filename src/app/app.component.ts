@@ -6,12 +6,13 @@ import { TopnavbarComponent } from './folder/topnavbar/topnavbar.component';
 import { SecondnavbarComponent } from './folder/secondnavbar/secondnavbar.component';
 import { BodyComponent } from './folder/body/body.component';
 import { TestbodyComponent } from './folder/testbody/testbody.component';
+import { LoginpageComponent } from './folder/loginpage/loginpage.component';
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [CommonModule, RouterOutlet,TestbodyComponent, MyComponentComponent ,BodyComponent,TopnavbarComponent, SecondnavbarComponent ]
+    imports: [CommonModule, RouterOutlet,TestbodyComponent, MyComponentComponent ,BodyComponent,LoginpageComponent,TopnavbarComponent, SecondnavbarComponent ]
 })
 export class AppComponent {
   title = 'my-new-project';
