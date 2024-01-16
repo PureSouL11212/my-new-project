@@ -184,13 +184,13 @@ button:hover {
   margin: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.5); /* Light yellow background */
+  background-color: rgba(0, 0, 0, 0.5); 
   transition: all 0.3s ease;
-  /* Add motion effect on hover */
+  
   transform: scale(1);
-  margin: 0 auto; /* Center horizontally */
-  position: relative; /* Set a positioning context */
-  top: 50%; /* Move the box up by half its height */
+  margin: 0 auto; 
+  position: relative;
+  top: 50%; 
   /* transform: translateY(-50%) */
 }
 
@@ -205,4 +205,10 @@ button:hover {
   text-align: center;
   text-decoration: underline;
   font-size: 35px;
+}
+
+.other-services-box form button {
+  padding: 10px 20px;
+ 
+  text-align: center;
 }
