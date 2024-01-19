@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-
+import { TopnavbarComponent } from '../topnavbar/topnavbar.component';
 @Component({
   selector: 'app-secondnavbar',
   standalone: true,
-  imports: [],
+  imports: [TopnavbarComponent],
   templateUrl: './secondnavbar.component.html',
   styleUrl: './secondnavbar.component.css'
 })
