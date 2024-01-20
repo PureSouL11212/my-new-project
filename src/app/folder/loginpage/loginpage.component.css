@@ -3429,10 +3429,11 @@ iframe {
   }
   
 .navbar-image {
-	width: 160px; 
+	border-radius: 20px;
+	width: 170px; 
 	height: auto; 
-	
-	}
+	mix-blend-mode:multiply;
+}
   
   
   .container-login100 {
