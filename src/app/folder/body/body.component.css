@@ -1,13 +1,17 @@
 * {
   height: auto;
+  
   /* background-color: aqua; */
 }
 
 /* Add styling for the calendar selector */
 /* angular.css */
 .container {
+ /*background-color: rgb(166, 250, 229); */
+  /*background-image: url("https://source.unsplash.com/random/1920x1080/?hillstation");*/
+  background-image:url("/assets/image/i1.jpeg");
   /* background-color: rgb(161, 246, 244); */
-  background-image: url("https://source.unsplash.com/random/1920x1080/?sky"); 
+  /* background-image: url("https://source.unsplash.com/random/1920x1080/?sky");  */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,7 +19,7 @@
 input[type="date"] {
   padding: 5px;
   margin-top: 0px;
-  border: 1px solid #fb0000;
+  border: 1px solid black;
   border-radius: 5px;
 }
 .booking {
@@ -25,11 +29,11 @@ input[type="date"] {
 }
 
 .bk:hover p {
-  background-color: rgb(166, 64, 64);
+  background-color:rgb(161, 239, 219);
 }
 
 .booking-box {
-  border: 2px solid #000;
+  border: 2px solid black;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
@@ -52,29 +56,31 @@ button {
 }
 
 .day-container {
-  border: 2px solid red;
+  border: 2px solid black;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
 }
 
 .bk {
+  border:1px solid black;
   padding: 30px 80px;
   border-radius: 50px;
   display: inline-block;
   transition: all 0.3s ease-out; /* Smoother transitions */
-  background-color: #ff49ad; /* Initial background color */
+  background-color: beige; /* Initial background color */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
 }
 .bk p {
   font-size: large;
-  color: rgb(0, 0, 0);
+ 
+  color:black;
   font-weight: bold;
-  background-color: #ff49ad;
+  background-color: beige;
   transition: background-color 0.3s ease-in-out; /* Smooth background color transition */
 }
 .bk:hover {
-  background-color: #4b3333; /* Change background color on hover */
+  background-color: rgb(161, 239, 219); /* Change background color on hover */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); /* Enhance box shadow on hover */
   transform: scale(1.05); /* Slight zoom-in effect */
 }
@@ -84,16 +90,16 @@ button {
 }
 
 .bk:hover p {
-  color: #fff; /* Change text color on hover */
+  color:black; /* Change text color on hover */
 }
 
 /* 2 boxes*/
 
 label {
-  color: #fff;
+  color: black;
 }
 .left-box:hover {
-  color: red;
+  color: black;
 }
 .container1 {
   display: flex;
@@ -103,12 +109,12 @@ label {
 
 .left-box,
 .right-box {
-  width: 45%;
+  width: 37%;
   padding: 20px;
   margin: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.5); /* Vibrant red background color */
+  border: 1px solid black;
+  border-radius: 58px;
+  background-color: beige; /* Vibrant red background color */
   transition: all 0.3s ease; /* Apply smooth transition to all properties */
 
   /* Add motion effect on hover */
@@ -119,14 +125,15 @@ label {
 .left-box:hover,
 .right-box:hover {
   cursor: pointer;
-  color: red;
+  color: black;
   transform: scale(1.05); /* Scale up the box on hover */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow on hover for depth effect */
+  background-color: rgb(161, 239, 219);
 }
 
 .left-box h2,
 .right-box h2 {
-  color: #fff; /* White text color for better contrast on the red background */
+  color: white; /* White text color for better contrast on the red background */
 }
 
 .left-box form,
@@ -148,7 +155,7 @@ label {
 
 .form-group input {
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 5px;
 }
 
@@ -157,7 +164,7 @@ button {
   border: none;
   border-radius: 5px;
   background: #007bff;
-  color: #fff;
+  color: white;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -169,7 +176,8 @@ button:hover {
   margin-top: 80px;
 }
 .right-box form:hover {
-  color: red;
+  color: black;
+ 
 }
 .container1 h2 {
   color: rgb(0, 0, 0);
@@ -181,8 +189,11 @@ button:hover {
 /* Style the new box */
 .other-services-box {
   width: 45%;
-  padding: 20px;
+  padding: 15px;
   margin: 10px;
+  border: 1px solid black;
+  border-radius: 48px;
+  background-color:beige; /* Light yellow background */
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.5); 
@@ -198,6 +209,7 @@ button:hover {
 .other-services-box:hover {
   transform: scale(1.04);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: rgb(161, 239, 219);
 }
 
 
@@ -208,6 +220,8 @@ button:hover {
   font-size: 35px;
 }
 
+.other-services-box form-group button{
+  align-items: center; }
 .other-services-box form button {
   padding: 10px 20px;
  

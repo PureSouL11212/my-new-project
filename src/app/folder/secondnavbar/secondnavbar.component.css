@@ -14,7 +14,7 @@ body {
 }
 
 .navbar {
-  background: #99f3cc;
+  background: beige;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -123,4 +123,3 @@ a {
     display: block;
   }
 }
-

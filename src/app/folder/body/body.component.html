@@ -1,51 +1,33 @@
-<!-- <div class="container">
-    <div class="row">
-        <div class="booking" style="text-align: center;border:2px solid red">
-            <p >Booking peroid </p>
-            <p>red</p>
-
-        </div>
-    </div> 
-</div> -->
-
 <div class="container">
   <div class="row">
     <div class="booking" style="text-align: center; padding: 30px 80px">
-      <div
-        class="bk"
-        style="
-          border: 2px solid red;
+      <div class="bk" style="
+          border: 2px solid black;
           padding: 30px 80px;
           border-radius: 50px;
           display: inline-block;
-        "
-      >
-        <p
-          class="booking-period-title"
-          style="text-decoration: underline; font-size: 30px"
-        >
-          Booking Period
+        ">
+        <p class="booking-period-title"
+          style="text-decoration: underline; font-size: 25px;  font-style: bcharter bd bt">
+          BOOKING PERIOD
         </p>
         <p>From Date :</p>
         <input type="date" id="bookingDate" name="bookingDate" />
         <hr />
-        <p>ToDate :</p>
+        <p>Till Date :</p>
         <input type="date" id="bookingDate" name="bookingDate" required /><br />
         <br />
-        <button (click)="proceed()">see Availability</button>
+        <button (click)="proceed()">Check Availability</button>
       </div>
     </div>
 
     <div class="booking" style="text-align: center; padding: 0px 0px">
-      <div
-        class="bk"
-        style="
-          border: 2px solid red;
+      <div class="bk" style="
+          border: 2px solid black;
           padding: 30px 80px;
           border-radius: 50px;
           display: inline-block;
-        "
-      >
+        ">
         <div class="booking-box">
           <p>Date: {{ currentDate }}</p>
           <div class="image-section">
@@ -69,21 +51,11 @@
         <form>
           <div class="form-group">
             <label for="name">Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Enter your name"
-            />
+            <input type="text" id="name" name="name" placeholder="Enter your name" />
           </div>
           <div class="form-group">
             <label for="address">Address</label>
-            <input
-              type="text"
-              id="address"
-              name="address"
-              placeholder="Enter your address"
-            />
+            <input type="text" id="address" name="address" placeholder="Enter your address" />
           </div>
           <div class="form-group">
             <label for="purpose">Purpose of Visit</label>
@@ -95,12 +67,7 @@
           </div>
           <div class="form-group">
             <label for="office">Office/Company</label>
-            <input
-              type="text"
-              id="office"
-              name="office"
-              placeholder="Enter office/company"
-            />
+            <input type="text" id="office" name="office" placeholder="Enter office/company" />
           </div>
           <div class="form-group">
             <label for="sikkimese">Sikkimese</label>
@@ -120,30 +87,15 @@
           </div>
           <div class="form-group">
             <label for="idCardNo">ID Card No.</label>
-            <input
-              type="number"
-              id="idCardNo"
-              name="idCardNo"
-              placeholder="Enter ID card number"
-            />
+            <input type="number" id="idCardNo" name="idCardNo" placeholder="Enter ID card number" />
           </div>
           <div class="form-group">
             <label for="contactNo">Contact No.</label>
-            <input
-              type="number"
-              id="contactNo"
-              name="contactNo"
-              placeholder="Enter contact number"
-            />
+            <input type="number" id="contactNo" name="contactNo" placeholder="Enter contact number" />
           </div>
           <div class="form-group">
             <label for="gstNo">GST No.</label>
-            <input
-              type="number"
-              id="gstNo"
-              name="gstNo"
-              placeholder="Enter GST number"
-            />
+            <input type="number" id="gstNo" name="gstNo" placeholder="Enter GST number" />
           </div>
           <button type="submit">Submit</button>
         </form>
@@ -170,39 +122,19 @@
           </div>
           <div class="form-group">
             <label for="rate">Rate</label>
-            <input
-              type="number"
-              id="rate"
-              name="rate"
-              placeholder="Enter rate"
-            />
+            <input type="number" id="rate" name="rate" placeholder="Enter rate" />
           </div>
           <div class="form-group">
             <label for="discount">Discount</label>
-            <input
-              type="number"
-              id="discount"
-              name="discount"
-              placeholder="Enter discount"
-            />
+            <input type="number" id="discount" name="discount" placeholder="Enter discount" />
           </div>
           <div class="form-group">
             <label for="cgst">CGST</label>
-            <input
-              type="number"
-              id="cgst"
-              name="cgst"
-              placeholder="Enter CGST"
-            />
+            <input type="number" id="cgst" name="cgst" placeholder="Enter CGST" />
           </div>
           <div class="form-group">
             <label for="total">Total</label>
-            <input
-              type="number"
-              id="total"
-              name="total"
-              placeholder="Enter total"
-            />
+            <input type="number" id="total" name="total" placeholder="Enter total" />
           </div>
           <button type="submit">Submit</button>
         </form>
@@ -225,32 +157,19 @@
         </div>
 
         <div class="form-group">
-          <label for="numDaysExtraMattress"
-            >Number of Days Extra Mattress Used</label
-          >
+          <label for="numDaysExtraMattress">Number of Days Extra Mattress Used</label>
           <select id="numDaysExtraMattress" name="numDaysExtraMattress">
             <option value="">Select Number of Days</option>
           </select>
         </div>
         <div class="form-group">
-          <label for="dailyChargeExtraMattress"
-            >Daily Charge (Extra Mattress)</label
-          >
-          <input
-            type="number"
-            id="dailyChargeExtraMattress"
-            name="dailyChargeExtraMattress"
-            placeholder="Enter daily charge"
-          />
+          <label for="dailyChargeExtraMattress">Daily Charge (Extra Mattress)</label>
+          <input type="number" id="dailyChargeExtraMattress" name="dailyChargeExtraMattress"
+            placeholder="Enter daily charge" />
         </div>
         <div class="form-group">
           <label for="totalExtraMattress">Total (Extra Mattress)</label>
-          <input
-            type="number"
-            id="totalExtraMattress"
-            name="totalExtraMattress"
-            placeholder="Enter total"
-          />
+          <input type="number" id="totalExtraMattress" name="totalExtraMattress" placeholder="Enter total" />
         </div>
         <div class="form-group">
           <label for="partyService">Party Service Required?</label>
@@ -262,28 +181,22 @@
         </div>
 
         <div class="form-group">
-          <label for="dailyChargePartyService"
-            >Daily Charge (Party Service)</label
-          >
+          <label for="dailyChargePartyService">Daily Charge (Party Service)</label>
 
-          <input
-            type="number"
-            id="dailyChargePartyService"
-            name="dailyChargePartyService"
-            placeholder="Enter daily charge"
-          />
+          <input type="number" id="dailyChargePartyService" name="dailyChargePartyService"
+            placeholder="Enter daily charge" />
         </div>
         <div class="form-group">
           <label for="totalPartyService">Total (Party Service)</label>
-          <input
-            type="number"
-            id="totalPartyService"
-            name="totalPartyService"
-            placeholder="Enter total"
-          />
+          <input type="number" id="totalPartyService" name="totalPartyService" placeholder="Enter total" />
         </div>
+
         <button type="submit">Submit</button>
+
       </form>
     </div>
+    <br>
+    <br>
+
   </div>
 </div>
