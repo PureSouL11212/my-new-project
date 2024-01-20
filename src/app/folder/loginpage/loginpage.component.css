@@ -3419,7 +3419,7 @@ iframe {
  
 	height: 185px; 
 	background-color:#008ca1;
-	color: rgb(0, 0, 0); 
+	color: black; 
 	top: 0;
 	width: 100%;
 	z-index: 100; 
@@ -3428,6 +3428,13 @@ iframe {
 	justify-content: center; 
   }
   
+.navbar-image {
+	width: 160px; 
+	height: auto; 
+	
+	}
+  
+  
   .container-login100 {
 	display: flex;
 	flex-direction: column;
@@ -3435,22 +3442,17 @@ iframe {
 	color: black;
   }
   
-  .navbar-image {
-	width: 120px; 
-	height: auto; 
-	margin-bottom: 10px; 
-	filter: brightness(0) invert(1);
-  }
   
   .navbar-text {
 	font-size: 15px; 
 	font-weight: bold;
-	color: rgb(0, 0, 0);
+	color: black;
   }
   
   .navbar-text1 {
 	font-size: 22px;
 	font-weight: bolder; 
+	color: black;
   }
   
   .navbar-buttons {
