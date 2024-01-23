@@ -8,6 +8,7 @@ import { BodyComponent } from './folder/body/body.component';
 import { TestbodyComponent } from './folder/testbody/testbody.component';
 import { LoginpageComponent } from './folder/loginpage/loginpage.component';
 import { FooterComponent } from './footer/fotter.component';
+
 @Component({
     selector: 'app-root',
     standalone: true,
