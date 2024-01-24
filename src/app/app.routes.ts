@@ -4,6 +4,7 @@ import { SecondnavbarComponent } from './folder/secondnavbar/secondnavbar.compon
 import { BodyComponent } from './folder/body/body.component';
 import { Home1Component } from './home1/home1.component';
 import { HomeAComponent } from './navfolder/home-a/home-a.component';
+import { BookingComponent } from './navfolder/booking/booking.component';
 export const routes: Routes = [
     { path: '', redirectTo: 'login', pathMatch: 'full' },
     { path: 'login', loadComponent: () => import('./folder/loginpage/loginpage.component').then(c => c.LoginpageComponent) },
@@ -12,4 +13,6 @@ export const routes: Routes = [
     { path: 'body', component: BodyComponent },
     { path: 'home1', component: Home1Component },
     { path: 'homea', component: HomeAComponent },
+    { path: 'booking', component: BookingComponent },
+
 ];
