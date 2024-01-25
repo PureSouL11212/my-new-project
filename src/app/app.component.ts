@@ -11,12 +11,13 @@ import { FooterComponent } from './footer/fotter.component';
 import { BurgerComponent } from './folder/burger/burger.component';
 import { HomeAComponent } from './navfolder/home-a/home-a.component';
 import { BookingComponent } from './navfolder/booking/booking.component';
+import { MainhomepageComponent } from './navfolder/mainhomepage/mainhomepage.component';
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [CommonModule, RouterOutlet,BookingComponent,BurgerComponent,HomeAComponent,TestbodyComponent,FooterComponent, MyComponentComponent ,BodyComponent,LoginpageComponent,TopnavbarComponent, SecondnavbarComponent ]
+    imports: [CommonModule, RouterOutlet,MainhomepageComponent,BookingComponent,BurgerComponent,HomeAComponent,TestbodyComponent,FooterComponent, MyComponentComponent ,BodyComponent,LoginpageComponent,TopnavbarComponent, SecondnavbarComponent ]
 })
 export class AppComponent {
   title = 'my-new-project';

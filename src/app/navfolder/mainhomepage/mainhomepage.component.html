@@ -1,0 +1,51 @@
+<!-- <nav class="navbar">
+  <div class="navbar-content">
+    <img src="\assets\image\logo.png" alt="Image 1" class="navbar-image">
+    <span class="navbar-text">Sikkim Tourism Development Corporation</span>
+    <span class="navbar-text1">Sikkim House Reservation System</span>
+    <div class="navbar-buttons">
+      <input type="checkbox" id="toggle" class="navbar-toggle">
+      <label for="toggle" class="navbar-button">Options</label>
+      <div class="navbar-dropdown">
+        <button class="navbar-button">Logout</button>
+        <button class="navbar-button">Change Password</button>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+<app-body></app-body>
+<app-fotter></app-fotter> -->
+
+
+
+  <ngb-carousel>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[0]" alt="Random first slide" />
+      </div>
+      <div class="carousel-caption">
+        <h3>Ravangla</h3>
+        <p>Buddha Park</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[1]" alt="Random second slide" />
+      </div>
+      <div class="carousel-caption">
+        <h3>Gangtok</h3>
+        <p>Royal Palace</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[2]" alt="Random third slide" />
+      </div>
+      <div class="carousel-caption">
+        <h3>North Sikkim</h3>
+        <p>Gurudongmar Lake</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  
