@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-mainhomepage',
   standalone: true,
-  imports: [NgbCarouselModule],
+  imports: [],
   templateUrl: './mainhomepage.component.html',
   styleUrl: './mainhomepage.component.css'
 })
