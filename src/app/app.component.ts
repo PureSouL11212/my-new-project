@@ -17,7 +17,7 @@ import { MainhomepageComponent } from './navfolder/mainhomepage/mainhomepage.com
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [CommonModule, RouterOutlet,MainhomepageComponent,BookingComponent,BurgerComponent,HomeAComponent,TestbodyComponent,FooterComponent, MyComponentComponent ,BodyComponent,LoginpageComponent,TopnavbarComponent, SecondnavbarComponent ]
+    imports: [CommonModule, RouterOutlet,BookingComponent,MainhomepageComponent,BurgerComponent,HomeAComponent,TestbodyComponent,FooterComponent, MyComponentComponent ,BodyComponent,LoginpageComponent,TopnavbarComponent, SecondnavbarComponent ]
 })
 export class AppComponent {
   title = 'my-new-project';

@@ -1,7 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { TopnavbarComponent } from './topnavbar.component';
-
 describe('TopnavbarComponent', () => {
   let component: TopnavbarComponent;
   let fixture: ComponentFixture<TopnavbarComponent>;
