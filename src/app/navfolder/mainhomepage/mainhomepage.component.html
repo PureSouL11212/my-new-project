@@ -1,7 +1,27 @@
 <!-- @TODO: Move away from custom props before injecting the polyfill, as it can't handle it -->
+<div class="carousel-container">
+	<div class="image-container" [style.transform]="'translateX(' + (-currentIndex * 100) + '%)'">
+	  <div class="carousel-item">
+		<img [src]="'assets/slideshow/' + images[0]" alt="Image">
+	  </div>
+	  <div class="carousel-item">
+		<img [src]="'assets/slideshow/' + images[1]" alt="Image">
+	  </div>
+	  <div class="carousel-item">
+		<img [src]="'assets/slideshow/' + images[2]" alt="Image">
+	  </div>
+	</div>
+	<button (click)="prev()"><</button>
+	<button (click)="next()">></button>
+  </div>
 
+
+
+
+
+  
 <br>
-<main>
+<main >
 	<ul id="cards">
 		<li class="card" id="card_1">
 			<div class="card__content">
