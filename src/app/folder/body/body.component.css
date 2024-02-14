@@ -7,11 +7,14 @@
 /* Add styling for the calendar selector */
 /* angular.css */
 .container {
- /*background-color: rgb(166, 250, 229); */
+ background:linear-gradient(67.6deg,rgb(225,242,254) -2.8%, rgb(193,224,250) 44.6%, 
+                           rgb(19,116,197)102.4%);
+ 
   /*background-image: url("https://source.unsplash.com/random/1920x1080/?hillstation");*/
-  background-image:url("/assets/image/i1.jpeg");
+  /*background-image:url("/assets/image/i1.jpeg");
   /* background-color: rgb(161, 246, 244); */
   /* background-image: url("https://source.unsplash.com/random/1920x1080/?sky");  */
+  /*background-image: linear-gradient(90deg,#020024 0%, #090979 35%, #00d4ff 100%);*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -196,7 +199,7 @@ button:hover {
   background-color:beige; /* Light yellow background */
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.5); 
+  /*background-color: rgba(0, 0, 0, 0.5); */
   transition: all 0.3s ease;
   
   transform: scale(1);

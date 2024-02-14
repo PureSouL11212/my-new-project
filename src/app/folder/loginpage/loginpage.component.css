@@ -43,7 +43,7 @@
   
   .wrap-login100 {
 	/* margin-top: -200px; */
-    width: 390px;
+    width: 370px;
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
@@ -3446,14 +3446,17 @@ iframe {
   
   
   .navbar-text {
-	font-size: 15px; 
+	font-size: 18px; 
 	font-weight: bold;
-	color: black;
+	/* font-weight: 6000px; */
+	font-family: 'Ubuntu', sans-serif;
+	color: rgb(123, 39, 192);
   }
   
   .navbar-text1 {
-	font-size: 22px;
-	font-weight: bolder; 
+	font-size: 27px;
+	font-weight:bold;
+	font-family: 'Ubuntu', sans-serif; 
 	color: black;
   }
   
